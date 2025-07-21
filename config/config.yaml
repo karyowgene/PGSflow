@@ -1,0 +1,10 @@
+# Paths to data
+
+# Paths and parameters for FASTQ processing
+raw_fastq_path: "./data/raw_fastq"
+reference_genome: "./data/reference/hg38.fa"
+trimmomatic_adapters: "./data/adapters/TruSeq3-PE-2.fa"
+
+# Existing parameters
+gwas_sumstats: "./data/bmd_gwas_sumstats.txt"
+reference_panel: "./data/ref_panel.bed"        # Reference panel (e.g., 1000 Genomes)
